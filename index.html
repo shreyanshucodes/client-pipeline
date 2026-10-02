@@ -12,7 +12,8 @@
         <div class="header-content">
             <h1><i class="fas fa-chart-line"></i> Client Pipeline Tracker</h1>
             <div class="controls">
-                <button id="theme-toggle" title="Toggle Theme"><i class="fas fa-moon"></i></button>
+                <a href="https://github.com/shreyanshucodes/client-pipeline" target="_blank" rel="noopener noreferrer" class="github-btn" title="View Source on GitHub"><i class="fab fa-github"></i> Star on GitHub</a>
+                <button id="theme-toggle" title="Toggle Dark/Light Mode"><i class="fas fa-moon"></i></button>
                 <button id="export-btn" title="Export to CSV"><i class="fas fa-file-csv"></i> Export CSV</button>
                 <button id="add-btn" title="Add Client"><i class="fas fa-plus"></i> Add Client</button>
             </div>
@@ -20,26 +21,26 @@
         <div class="stats-bar">
             <div class="stat-card">
                 <span class="stat-label">Total Leads</span>
-                <span class="stat-value" id="stat-leads">0</span>
+                <span class="stat-value" id="stat-leads">10</span>
             </div>
             <div class="stat-card">
                 <span class="stat-label">Pipeline Value</span>
-                <span class="stat-value" id="stat-value">₹0</span>
+                <span class="stat-value" id="stat-value">₹8,45,000</span>
             </div>
             <div class="stat-card">
                 <span class="stat-label">Conversion Rate</span>
-                <span class="stat-value" id="stat-conversion">0%</span>
+                <span class="stat-value" id="stat-conversion">10%</span>
             </div>
         </div>
         <div class="filters">
-            <input type="text" id="search-input" placeholder="Search clients...">
+            <input type="text" id="search-input" placeholder="🔍 Search clients, companies, or notes...">
             <select id="sort-select">
-                <option value="date-desc">Newest First</option>
-                <option value="date-asc">Oldest First</option>
-                <option value="val-desc">Highest Value</option>
-                <option value="val-asc">Lowest Value</option>
+                <option value="date-desc">Sort: Newest First</option>
+                <option value="date-asc">Sort: Oldest First</option>
+                <option value="val-desc">Sort: Highest Value</option>
+                <option value="val-asc">Sort: Lowest Value</option>
             </select>
-            <button id="load-sample-btn" class="secondary">Load Sample Data</button>
+            <button id="load-sample-btn" class="secondary" title="Restore original 10 demo clients"><i class="fas fa-undo"></i> Reset Demo Data</button>
         </div>
     </header>
 
