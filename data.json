@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Ravi Kumar",
+    "company": "TechCorp",
+    "value": 50000,
+    "stage": "Lead",
+    "notes": "Interested in SaaS product",
+    "date": "2026-09-28T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Anita Sharma",
+    "company": "DesignPro",
+    "value": 25000,
+    "stage": "Contacted",
+    "notes": "Sent cold email, waiting for reply",
+    "date": "2026-09-27T14:30:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Vikram Singh",
+    "company": "Singh & Co",
+    "value": 120000,
+    "stage": "Meeting Scheduled",
+    "notes": "Zoom call next Tuesday at 4 PM",
+    "date": "2026-09-29T09:15:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Priya Patel",
+    "company": "Patel Enterprises",
+    "value": 75000,
+    "stage": "Proposal Sent",
+    "notes": "Sent proposal for website redesign",
+    "date": "2026-09-25T11:45:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Arjun Menon",
+    "company": "Menon Logistics",
+    "value": 200000,
+    "stage": "Negotiating",
+    "notes": "Asking for 10% discount",
+    "date": "2026-09-28T16:20:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Neha Gupta",
+    "company": "Gupta Retail",
+    "value": 45000,
+    "stage": "Won",
+    "notes": "Contract signed, deposit received",
+    "date": "2026-09-20T10:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Suresh Rao",
+    "company": "Rao Consulting",
+    "value": 30000,
+    "stage": "Lost",
+    "notes": "Went with a cheaper competitor",
+    "date": "2026-09-15T08:30:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Divya Reddy",
+    "company": "Reddy Tech",
+    "value": 90000,
+    "stage": "Lead",
+    "notes": "Met at conference",
+    "date": "2026-09-29T12:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Manoj Tiwari",
+    "company": "Tiwari Bros",
+    "value": 60000,
+    "stage": "Contacted",
+    "notes": "Left voicemail",
+    "date": "2026-09-28T15:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Kavita Desai",
+    "company": "Desai Designs",
+    "value": 150000,
+    "stage": "Meeting Scheduled",
+    "notes": "In-person meeting on Friday",
+    "date": "2026-09-29T14:00:00Z"
+  }
+]
